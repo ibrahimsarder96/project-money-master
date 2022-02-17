@@ -40,14 +40,14 @@ function getInputField(num1, num2, num3){
   totalBalance.innerText = balance;
   }
 })
-//second function 
+//second function--------------------------------------- 
 function getPercentInputField(input1){
   const inputField = document.getElementById(input1);
   const inputText = inputField.value;
   const totalIncome = parseFloat(inputText);
   return totalIncome;
   }
-  //event handler save button
+  //event handler save button-------------------------------
   document.getElementById('save-btn').addEventListener('click', function(){
   //income field
   const totalIncome = getPercentInputField('total-income');

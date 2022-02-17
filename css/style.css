@@ -1,6 +1,7 @@
 /*----------- mobile-responsive -------------------*/
 @media (max-width: 576px) {
-  .section img{
-    width: 40vh;
-  }
+ .body{
+   max-width: 100%;
+   overflow-x: hidden;
+ }
 }
