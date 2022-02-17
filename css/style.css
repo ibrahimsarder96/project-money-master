@@ -1,0 +1,6 @@
+/*----------- mobile-responsive -------------------*/
+@media (max-width: 576px) {
+  .section img{
+    width: 40vh;
+  }
+}
