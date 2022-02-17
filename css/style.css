@@ -1,3 +1,7 @@
+/*------------- font-color --------------------*/
+.title-color{
+  color:#FF3182;
+}
 /*----------- mobile-responsive -------------------*/
 @media (max-width: 576px) {
  .body{
